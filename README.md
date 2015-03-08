@@ -1,6 +1,10 @@
 # Captain Picar
 
-This is the source code for Captain Picar. A little autonomous driving robot built with a [Raspberry Pi][RASPI], the [GroviPi Shield][GROVEPI] and [Grove Sensors][GROVE]. 
+This is the Captain Picar. A little autonomous driving robot built with a [Raspberry Pi][RASPI], the [GroviPi Shield][GROVEPI] and [Grove Sensors][GROVE]. 
+
+![Captainn Picar Photo][PICAR]
+
+[PICAR]: https://lh3.googleusercontent.com/-zHzJWpNRSmY/VPxLN2kJfBI/AAAAAAAADcM/GUAe9pk6ywQ/w426-h416/IMG_20150308_114111.jpg
 
 [RASPI]: http://www.raspberrypi.org/
 [GROVEPI]: http://www.dexterindustries.com/GrovePi/
@@ -8,9 +12,9 @@ This is the source code for Captain Picar. A little autonomous driving robot bui
 
 ## What he can do 
 
-_Captain Picar can explore rooms which were not explored by a robot before_
+_Captain Picar explores rooms which weren't explored by a robot before._
 
-Currently Captain Picar does this using a very simple driving logic:
+Currently Captain Picar does this with a very simple driving logic:
 
 * Drive until distance to an an obstacle drops below a threshold (measured by an ultrasonic sensor)
 * If an obstacle is detected: Rotate until distance is above the threshold again
