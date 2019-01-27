@@ -16,7 +16,7 @@ _Captain Picar explores rooms which weren't explored by a robot before._
 
 Currently Captain Picar does this with a very simple driving logic:
 
-* Drive until distance to an an obstacle drops below a threshold (measured by an ultrasonic sensor)
+* Drive until distance to an obstacle drops below a threshold (measured by an ultrasonic sensor)
 * If an obstacle is detected: Rotate until distance is above the threshold again
 * Keep same rotating direction if next obstacle is detected only after a short amount of time. 
 Use new random rotating direction if driving for a little longer time was possible.  
